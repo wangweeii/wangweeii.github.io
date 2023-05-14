@@ -31,7 +31,7 @@ darkmode: true
 author: VESO
 # subtitle: 为 Hugo 打造的主题
 description: 少做准备 直面核心
-keywords: Hugo,NexT,主题,简单,强大
+keywords: Hugo,Linux,C/C++,主题,简单,强大,编程,生活
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -162,8 +162,8 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials:
-  social0: Github || https://github.com/wangweeii || fab fa-github
-  social1: E-Mail || mailto:ww@veso.me || fa fa-envelope
+  # social0: Github || https://github.com/wangweeii || fab fa-github
+  # social1: E-Mail || mailto:ww@veso.me || fa fa-envelope
   # social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -344,20 +344,20 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed
   # in every article by default.
-  enable: false
+  enable: true
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
   animation: true
   # 捐赠信息的描述，支持 HTML 语法
   # Comment for donate and suppport HTML syntax
-  comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
+  comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯奶茶吧 ヾ(^▽^*)))'
   # 捐赠方式
   # 用例： `名称:图像地址`
   # Donate type
   # Usage: `name:image url`
   reward:
-    wechatpay: /imgs/wechat-pay.png
-    alipay: /imgs/ali-pay.png
+    wechatpay: /images/wechat-pay.png
+    alipay: /images/ali-pay.png
     #paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 
@@ -626,7 +626,7 @@ quicklink:
 comments:
   # 开启评论组件
   # If true, will show comment component in post end.
-  enable: true
+  enable: false
   # 设置默认使用的评论插件
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
@@ -714,7 +714,7 @@ waline:
 giscus:
   # Github 仓库地址，格式：用户名/仓库名称
   # Github repository owner and name
-  repo: username/repo-name
+  repo: wangweeii/wangweeii.github.io
   # Giscus 生成的仓库 Id
   # Generate repository Id from Giscus
   repoId: #<repo-id>
@@ -844,7 +844,7 @@ chat:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: true
+  enable: false
   room: hugo-next/community
 
 
@@ -902,7 +902,7 @@ mermaid:
 # Use Animate.css to animate everything.
 # For more information: https://animate.style
 motion:
-  enable: true
+  enable: false
   async: true
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
